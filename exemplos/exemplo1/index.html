@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Estilização - Menus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+    <!-- Menu superior -->
+     <header class="topo" id="inicio">
+        <h1>Portal de Tecnologia</h1>
+        <p>Exemplo simples de HTML + CSS</p>
+
+        <nav class="menu-horizontal">
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="">Imagens</a></li>
+                <li><a href="">Listas</a></li>
+                <li><a href="">Tabelas</a></li>
+                <li><a href="">Links</a></li>
+            </ul>
+        </nav>
+     </header>
+     <div class="pagina">
+        <aside class="menu-lateral">
+            <h2>Conteúdos</h2>
+            <nav>
+                <ul>
+                    <li><a href="#imagens"><i class="fa-brands fa-pinterest-p"></i> 1.Imagens</a></li>
+                    <li><a href="#listas"><i class="fa-solid fa-list-ul"></i> 2.Listas</a></li>
+                    <li><a href="#tabelas"><i class="fa-solid fa-table"></i> 3.Tabelas</a></li>
+                    <li><a href="#links"><i class="fa-solid fa-link"></i> 4.Links</a></li>
+                </ul>
+
+            </nav>
+        </aside>
+        <main class="conteudo">
+            <section id="imagens" class="section">
+                <h2>1.Imagens</h2>
+                <p>Tag Imagem</p>
+                <img class="imagem" src="https://i.pinimg.com/1200x/a0/7e/4d/a07e4ddb7d12f36d27d945e33acde5f5.jpg" alt="Imagem">
+            </section>
+            <section id="listas" class="section">
+                <h2>2. Listas</h2>
+                <p>Uma lista não ordenada</p>
+                <ul class="lista-conteudo">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+            <section id="tabelas" class="section">
+                <h3>3. Tabelas</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnologia</th>
+                            <th>Finalidade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>HTML</td>
+                        <td>Estrutura da página</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="section" id="links">
+                <h2>4. Links</h2>
+                <p>Um link para conhecer a THE BEST cantora do Brasil 🎶</p>
+                <a class="links" href="https://www.instagram.com/slipmami/?hl=pt-br">
+                    Clique aqui!
+                </a>
+            </section>
+        </main>
+     </div>
+</body>
+</html>
