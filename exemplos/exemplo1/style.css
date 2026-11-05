@@ -137,3 +137,14 @@ th{
 .links:hover{
     background-color: #104777;
 }
+.menu-horizontal .submenu{
+    display: none;
+}
+.menu-horizontal li:hover .submenu{
+    display: block;
+
+}
+.menu-horizontal a{
+    display: block;
+    margin-top: 10px;
+}
