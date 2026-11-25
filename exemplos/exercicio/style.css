@@ -1,0 +1,180 @@
+html{ 
+    scroll-behavior: smooth;
+
+}
+
+body{
+    margin: 0;
+    color: #a11b1b;
+    background-color: #f8f8f8;
+}
+
+.cabecalho{
+    background-color: rgb(160, 26, 26); 
+    color: blanchedalmond;
+    padding: 24px;
+}
+.cabecalho h1{
+    margin-bottom: 8px;
+    color: rgb(245, 235, 221);
+}
+.menu-horizontal ul{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    justify-content: end;
+    margin: 5px;
+}
+.menu-horizontal a{
+    background-color: #9d1f3d;
+    color: rgb(245, 235, 221);
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+.menu-horizontal a:hover{
+    background-color: #bc2e48;
+    cursor: pointer;
+    padding: 15px;
+}
+.pag{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1050px;
+    margin: 24px auto;
+}
+.menu-lateral{
+    width: 205px;
+    background-color: #f7f7e5;
+    padding: 14px;
+    border-radius: 8px;
+}
+.menu-lateral{
+    text-align: left;
+    padding-bottom: 8px;
+}
+.menu-lateral ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-lateral a{
+    padding: 12px 10px;
+    color: #173d69;
+    text-decoration: none;
+    background-color: #9d1f3d;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 8px;
+}
+.menu-lateral a:hover{
+    background-color: #fba7c0;
+    box-shadow: 5px 5px 5px #000000;
+}
+.conteudo{
+    flex: 1;
+}
+.section p{
+    color: black;
+}
+.section{
+    padding: 20px;
+    margin-bottom: 16px;
+    background-color: #f7f7e5;
+    padding: 14px;
+    border: 3px solid #800631;
+    border-radius: 8px;
+}
+.menu-horizontal .submenu{
+    display: none;
+}
+.menu-horizontal li:hover .submenu{
+    display: block;
+
+}
+.menu-horizontal a{
+    display: block;
+    margin-top: 10px;
+}
+.menu-lateral ul li a {
+    
+    
+    color: #f7f7e5;
+    
+    font-weight: bold;
+}
+.lista-conteudo a{
+    color: black;
+    text-decoration: none;
+}
+.lista-conteudo a hover{
+    text-decoration: underline;
+}
+.lista-conteudo{
+    display: block;
+    padding-left: 20px;
+}
+.lista-conteudo li{
+    color: black;
+}
+.lista-conteudo li::marker{
+    color:  rgb(187, 2, 2);
+}
+.section p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.imagem{
+    width: 300px;
+    border: 2px solid rgb(187, 2, 2);
+    border-radius: 8px;
+}
+.img figcaption {
+    color: black;
+}
+h3{
+    color: #000000;
+    text-align: left;
+    display: block;
+    font-weight: normal;
+}
+.imagem2 {
+    width: 500px;
+    border: 2px solid rgb(187, 2, 2);
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+.musicas{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.musicas figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.musicas .imagens{
+    width: 140px;
+    height: 140px;
+    border: 2px solid rgb(187,2,2);
+    border-radius: 8px;
+}
+.musicas a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #a11b1b;
+}
+.musicas a:hover{
+    color:  #bc2e48;
+}
+/* Comando pra aumentar a imagem em 10% quando o mouse passa em cima */
+.musicas figure:hover .imagens{
+    transform: scale(1.1);
+}
